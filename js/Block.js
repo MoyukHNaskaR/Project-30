@@ -10,6 +10,7 @@ class Block{
         this.width = width;
         this.height = height;
          this.image= loadImage("block.png")
+         this.visiblity=255;
         World.add(world, this.body);
       }
 
